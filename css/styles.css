@@ -37,6 +37,10 @@ a {
 body {
   background-color: var(--bg-white-color);
   color: var(--main-txt-color);
+  font-family: Roboto;
+}
+.container {
+  width: 1240px;
 }
 
 header {
@@ -59,4 +63,43 @@ header {
 
 .header-contacts {
   margin-left: auto;
+}
+
+/*Hero*/
+.hero-title {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 140px;
+  color: var(--main-blue-color);
+  width: 575px;
+}
+.hero-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--main-dark-blue);
+}
+
+.hero-button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--bg-white-color);
+  background-color: var(--main-blue-color);
+  padding: 16px 32px;
+  border-radius: 32px;
+  border-color: var(--main-blue-color);
+  border-width: 0;
+}
+
+.hero-p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 238px;
 }
