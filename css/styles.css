@@ -1,10 +1,3 @@
-:root {
-  --bg-white-color: #ffffff;
-  --main-blue-color: #2b7fff;
-  --main-dark-blue: #011c44;
-  --main-txt-color: #4a4a4a;
-}
-
 h1,
 h2,
 h3,
@@ -66,40 +59,3 @@ header {
 }
 
 /*Hero*/
-.hero-title {
-  font-family: Play;
-  font-weight: 700;
-  font-size: 140px;
-  color: var(--main-blue-color);
-  width: 575px;
-}
-.hero-text {
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--main-dark-blue);
-}
-
-.hero-button {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: var(--bg-white-color);
-  background-color: var(--main-blue-color);
-  padding: 16px 32px;
-  border-radius: 32px;
-  border-color: var(--main-blue-color);
-  border-width: 0;
-}
-
-.hero-p {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 238px;
-}
